@@ -1,6 +1,26 @@
 # DLPAlign
 
 A Deep Learning based Progressive Alignment for Multiple Protein Sequences
+## Build
+
+```
+cd DLPAlign/
+make
+```
+
+## Training
+
+```
+cd Classifier/
+python pair_classifier.py
+```
+
+or
+
+```
+jupyter-notebook pair_classifier.ipynb
+```
+
 
 ## Models
 
