@@ -24,7 +24,7 @@ jupyter-notebook pair_classifier.ipynb
 
 ## Models
 
-The models could be downloaded from `https://drive.google.com/file/d/16xPQSXi6kk1p31xdlF4P3_PToeVcqA2r/view?usp=sharing`. (Please put the unziped dir `Classifier`in the project home dir.)
+The models could be downloaded from `https://drive.google.com/drive/folders/12oY3lmpLgYcUeWDhHw7KpmBn5TIPJBT9?usp=sharing`. (Please put the unziped dir `Classifier`in the project home dir.)
 
 The best model is `pairs_classification_cnn_bilstm_final4`.
 
