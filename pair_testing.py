@@ -6,6 +6,8 @@ import numpy as np
 import os, sys
 from pandas.core.frame import DataFrame
 
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
+
 max_length = 512
 seqs_sys = 'ARNDCQEGHILKMFPSTWYV-'
 
@@ -59,7 +61,6 @@ def BenchTest(bench, model):
             ret.append([bench + '.' + file, SingFileTest(bench + '/in/' +  file, model)])
     return ret
     
-
 if  __name__ == "__main__":
     bench = sys.argv[1]
     ret = BenchTest(bench, model)

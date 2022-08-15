@@ -1,6 +1,9 @@
 # DLPAlign
 
 A Deep Learning based Progressive Alignment for Multiple Protein Sequences
+
+Sequential modeling-based two-stage Progressive Multiple Sequence Alignment
+
 ## Build
 
 ```
@@ -15,18 +18,12 @@ cd Classifier/
 python pair_classifier.py
 ```
 
-or
-
-```
-jupyter-notebook pair_classifier.ipynb
-```
-
 
 ## Models
 
-The models could be downloaded from `https://drive.google.com/drive/folders/12oY3lmpLgYcUeWDhHw7KpmBn5TIPJBT9?usp=sharing`. (Please put the unziped dir `Classifier`in the project home dir.)
+The old models could be downloaded from `https://drive.google.com/file/d/16xPQSXi6kk1p31xdlF4P3_PToeVcqA2r/view?usp=sharing`. (Please put the unzipped dir `Classifier`in the project home dir.) and the best model is `pairs_classification_cnn_bilstm_final4`. 
 
-The best model is `pairs_classification_cnn_bilstm_final4`.
+The new best model can be downloaded from `https://connecthkuhk-my.sharepoint.com/:u:/g/personal/mmkuang_connect_hku_hk/EZZ-7tIaeXVDirnslWN3RLwBkxVnfTnlSRWZGmysMTLzMA?e=hQzQ2p`.
 
 ## Run
 
